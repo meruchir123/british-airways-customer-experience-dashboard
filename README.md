@@ -2,75 +2,82 @@
 
 ## 📊 Project Overview
 
-This project presents an interactive Tableau dashboard analyzing customer reviews and satisfaction data for British Airways.
-It provides insights into **customer experience across service categories, geographies, time trends, and aircraft types**.
+This project presents an interactive Tableau dashboard analyzing customer reviews of British Airways to evaluate overall passenger satisfaction and service quality.
+
+The dashboard enables deep insights into **customer experience across countries, time, aircraft types, and service categories**, helping identify strengths, weaknesses, and opportunities for improvement.
 
 ---
 
-## 🎯 Objectives
+## 🌐 Live Dashboard
 
-* Evaluate overall customer satisfaction and service quality
-* Analyze trends in ratings over time
-* Identify performance differences across countries and aircrafts
-* Enable dynamic exploration of multiple service metrics
+👉 *(Add your Tableau Public link here)*
 
 ---
 
-## 📌 Dashboard Features
+## 🎯 Business Problem
 
-### 📊 KPI Metrics (Top Summary)
+Airlines receive large volumes of customer feedback, but extracting actionable insights from this data is challenging.
 
-* ⭐ Avg Rating: **4.19**
-* 🧑‍✈️ Avg Cabin Staff Service: **3.28**
-* 🎬 Avg Entertainment: **1.44**
-* 🍽️ Avg Food & Beverages: **2.38**
-* 🛫 Avg Ground Service: **3.03**
-* 💰 Avg Value for Money: **2.78**
-* 💺 Avg Seat Comfort: **2.87**
+This project aims to:
 
-👉 Provides a quick snapshot of overall performance
+* Identify **key drivers of customer satisfaction**
+* Detect **underperforming service areas**
+* Analyze **trends over time and across regions**
+* Support **data-driven decision making**
 
 ---
 
-### 🌍 Average Rating by Country (Map)
+## 📌 Key Dashboard Features
 
-* Geographic visualization of customer ratings
+### 📊 KPI Summary (At-a-glance Insights)
+
+* ⭐ Avg Overall Rating: **4.19**
+* 🧑‍✈️ Cabin Staff Service: **3.28**
+* 🎬 Entertainment: **1.44**
+* 🍽️ Food & Beverages: **2.38**
+* 🛫 Ground Service: **3.03**
+* 💰 Value for Money: **2.78**
+* 💺 Seat Comfort: **2.87**
+
+---
+
+### 🌍 Geographic Analysis (Map)
+
+* Displays **average rating by country**
 * Helps identify:
 
   * High satisfaction regions
-  * Low-performing markets
+  * Underperforming markets
 
 ---
 
-### 📈 Rating Trends Over Time
+### 📈 Time Series Analysis
 
-* Monthly trend analysis of:
+* Monthly trends of:
 
   * Overall Rating
   * Cabin Staff Service
 * Detects:
 
   * Performance fluctuations
-  * Decline/improvement periods
+  * Declining or improving service quality
 
 ---
 
-### ✈️ Average Rating by Aircraft
+### ✈️ Aircraft-wise Performance
 
-* Comparison of aircraft models:
+* Compares ratings across aircraft models:
 
   * Boeing 747, 777, 787
   * Airbus A320, A380, etc.
-* Helps identify:
-
-  * Best-performing aircraft
-  * Customer comfort differences
+* Identifies aircrafts delivering better customer experience
 
 ---
 
-### 🎛️ Interactive Controls
+### 🎛️ Dynamic Metric Selection (Advanced Feature)
 
-* **Metric Selector (Parameter)**:
+* Parameter: **"Pick Any Metric"**
+* Switch between:
 
   * Overall Rating
   * Staff Service
@@ -80,31 +87,66 @@ It provides insights into **customer experience across service categories, geogr
   * Comfort
   * Value for Money
 
-* Filters:
+👉 Enables flexible, multi-dimensional analysis
 
-  * Date range (2016–2023)
-  * Seat Type
-  * Traveller Type
-  * Continent
-  * Aircraft Group
+---
 
-👉 Enables deep, customizable analysis
+### 🎚️ Interactive Filters
+
+* Date Range (2016–2023)
+* Seat Type
+* Traveller Type
+* Continent
+* Aircraft Group
+
+---
+
+## 📈 Key Insights
+
+* Overall satisfaction is strong (**4.19**), but specific services lag behind
+* **Entertainment and food services are the weakest areas**
+* Customer satisfaction varies significantly across countries
+* Certain aircraft models consistently receive higher ratings
+* Ratings fluctuate over time, indicating operational inconsistency
+* Value for money and seat comfort indicate scope for improvement
+
+---
+
+## 💼 Business Impact
+
+* Identified **low-performing service areas** (entertainment, food)
+* Highlighted **aircraft models with better customer experience**
+* Revealed **regional differences in satisfaction levels**
+* Enabled **targeted improvements in service quality**
+* Supports **strategic decision-making using data insights**
+
+---
+
+## ⚙️ Project Workflow
+
+1. Data collection and preprocessing (CSV dataset)
+2. Data cleaning and structuring
+3. Creation of calculated fields in Tableau
+4. Implementation of **parameter-driven dynamic metric selection**
+5. Dashboard design with filters, maps, and interactive visuals
+6. Insight generation and storytelling
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 * Tableau Public (Data Visualization)
-* CSV Dataset (British Airways Reviews Data)
+* Microsoft Excel / CSV (Data Source)
 
 ---
 
 ## 📂 Dataset Description
 
-Includes:
+The dataset includes:
 
-* Customer Ratings (multiple service categories)
-* Review Date
+* Customer Reviews & Ratings
+* Service Metrics (Staff, Food, Entertainment, etc.)
+* Date of Review
 * Country
 * Aircraft Type
 * Traveller Type
@@ -112,30 +154,27 @@ Includes:
 
 ---
 
-## 📈 Key Insights
+## 🖼️ Dashboard Preview
 
-* Overall rating is relatively strong (4.19), but **entertainment and food services lag behind**
-* Significant variation in ratings across countries
-* Certain aircraft models consistently receive higher ratings
-* Customer satisfaction shows fluctuations over time, indicating operational inconsistencies
-* Value for money and seat comfort are moderate, suggesting scope for improvement
+![Dashboard Preview](images/dashboard_preview.png)
 
 ---
 
 ## ▶️ How to Use
 
-1. Download the `.twbx` file given.
-2. Open using Tableau Desktop / Tableau Public
-3. Use filters and parameter selection to explore insights
+1. Open the live dashboard (Tableau Public link above)
+2. Use filters to explore different segments
+3. Use **"Pick Any Metric"** to switch analysis
+4. Analyze trends across time, geography, and aircraft
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add sentiment analysis on review text (NLP)
-* Build airline comparison dashboard (multi-company)
-* Add delay and operational data integration
-* Create predictive model for customer satisfaction
+* Sentiment analysis using NLP on review text
+* Predictive modeling for customer satisfaction
+* Comparison with other airlines
+* Integration with real-time operational data
 
 ---
 
@@ -148,4 +187,4 @@ Aspiring Data Analyst | Web Developer
 
 ## ⭐ Support
 
-If you like this project, give it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub!
