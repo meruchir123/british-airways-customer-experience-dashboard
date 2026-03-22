@@ -8,12 +8,6 @@ The dashboard enables deep insights into **customer experience across countries,
 
 ---
 
-## 🌐 Live Dashboard
-
-👉 *(Add your Tableau Public link here)*
-
----
-
 ## 🎯 Business Problem
 
 Airlines receive large volumes of customer feedback, but extracting actionable insights from this data is challenging.
@@ -156,7 +150,7 @@ The dataset includes:
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](image.png)
 
 ---
 
